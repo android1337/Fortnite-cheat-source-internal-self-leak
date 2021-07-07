@@ -69,6 +69,7 @@ namespace offsets {
 	uintptr_t bDisableEquipAnimation = 0x2B3;
 	uintptr_t bADSWhileNotOnGround = 0x3AB1;
 	uintptr_t ReviveFromDBNOTime = 0x33B8;
+	uintptr_t CustomTimeDilation = 0x98;
 
 }
 
