@@ -229,7 +229,7 @@
     <MASM Include="no_cheat\no_spoofcall.asm">
       <Filter>Header Files\no_cheat</Filter>
     </MASM>
-    <MASM Include="D:\BACKUPFORWINDOWS11\NtUserSendInput.asm">
+    <MASM Include="no_cheat\NtUserSendInput.asm">
       <Filter>Header Files\no_cheat</Filter>
     </MASM>
   </ItemGroup>
