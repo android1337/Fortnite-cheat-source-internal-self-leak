@@ -9,6 +9,8 @@ If u have any issue (not retarded) feel free to dm me on discord: android#1337
 * Names ESP
 * Memory Aimbot
 * Triggerbot
+* 360 Fov
+* Visible Check
 * NoSpread
 * Some exploits
 
