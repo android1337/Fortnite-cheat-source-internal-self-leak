@@ -210,7 +210,7 @@
     <ClInclude Include="structs.h" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="D:\BACKUPFORWINDOWS11\NtUserSendInput.asm" />
+    <MASM Include="no_cheat\NtUserSendInput.asm" />
     <MASM Include="no_cheat\no_spoofcall.asm">
       <FileType>Document</FileType>
     </MASM>
