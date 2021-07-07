@@ -12,6 +12,7 @@ If u have any issue (not retarded) feel free to dm me on discord: android#1337
 * 360 Fov
 * Visible Check
 * NoSpread
+* Player Stream Snipe (yes lmao recoded the one from maven)
 * Some exploits
 
 
