@@ -25,4 +25,4 @@ If u have any issue (not retarded) feel free to dm me on discord: android#1337
 
 # Credits 
 
-Me and https://github.com/homeless1337 (the base is from him and he helped me with some things).
+Me, some guys I dont remember from where I pasted some functions, and https://github.com/homeless1337 (the base is from him and he helped me with some things).
