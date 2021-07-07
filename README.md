@@ -13,6 +13,8 @@ If u have any issue (not retarded) feel free to dm me on discord: android#1337
 * Visible Check
 * NoSpread
 * Player Stream Snipe (yes lmao recoded the one from maven)
+* AirStuck
+* RapidFire
 * Some exploits
 
 
