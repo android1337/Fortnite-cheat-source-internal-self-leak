@@ -70,6 +70,8 @@ namespace offsets {
 	uintptr_t bADSWhileNotOnGround = 0x3AB1;
 	uintptr_t ReviveFromDBNOTime = 0x33B8;
 	uintptr_t CustomTimeDilation = 0x98;
+	uintptr_t LastFireTime = 0x9BC;
+	uintptr_t LastFireTimeVerified = 0x9C0;
 
 }
 
