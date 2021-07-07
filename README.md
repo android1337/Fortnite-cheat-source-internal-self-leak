@@ -1,5 +1,23 @@
 # Fortnite-cheat-source-internal-self-leak
 Here is my fortnite internal cheat source. I will update this every update.
-Credits to me and https://github.com/homeless1337 (the base is from him and he helped me with some things).
+If u have any issue (not retarded) feel free to dm me on discord: android#1337
 
-If you need help feel free to dm me on discord: android#1337
+# Features
+* Box ESP
+* Skeleton ESP
+* Line ESP
+* Names ESP
+* Memory Aimbot
+* Triggerbot
+* NoSpread
+* Some exploits
+
+
+# Change Log 
+| Date         | Fixed / Changed / Added |
+| ------------ | ----------------------- |
+| 07/07/2021   | Released                |
+
+# Credits 
+
+Me and https://github.com/homeless1337 (the base is from him and he helped me with some things).
