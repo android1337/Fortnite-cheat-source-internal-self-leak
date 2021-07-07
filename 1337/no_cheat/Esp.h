@@ -43,10 +43,10 @@ void DrawBox(int x, int y, int PawnWidth, int PawnHeight, color color, int BoxTy
 		float lineW = (PawnWidth / 4);
 		float lineH = (PawnHeight / 3);
 
-		gui.draw_line(x, y, x, y + lineH, color); //Da in alto a sinistra verso giù
+		gui.draw_line(x, y, x, y + lineH, color); //Da in alto a sinistra verso giÃ¹
 		gui.draw_line(x, y, x + lineW, y, color); //Da in alto a sinistra verso destra
 		gui.draw_line(x + PawnWidth - lineW, y, x + PawnWidth, y, color); //Da al centro in alto a destra verso in alto a destra
-		gui.draw_line(x + PawnWidth, y, x + PawnWidth, y + lineH, color); //Da in alto a destra verso giù
+		gui.draw_line(x + PawnWidth, y, x + PawnWidth, y + lineH, color); //Da in alto a destra verso giÃ¹
 		gui.draw_line(x, y + PawnHeight - lineH, x, y + PawnHeight, color); //Dal centro in basso a sinistra verso in basso a sinistra
 		gui.draw_line(x, y + PawnHeight, x + lineW, y + PawnHeight, color); //Da in basso a sinitra verso destra
 		gui.draw_line(x + PawnWidth - lineW, y + PawnHeight, x + PawnWidth, y + PawnHeight, color); //Dal centro in basso basso a desta verso  in basso a destra
@@ -284,13 +284,13 @@ void DrawCorneredBox(int X, int Y, int W, int H, color color) {
 	float lineW = (W / 4);
 	float lineH = (H / 3);
 
-	gui.draw_line(X, Y, X, Y + lineH, color); //Da in alto a sinistra verso giù
+	gui.draw_line(X, Y, X, Y + lineH, color); //Da in alto a sinistra verso giÃ¹
 
 	gui.draw_line(X, Y, X + lineW, Y, color); //Da in alto a sinistra verso destra
 
 	gui.draw_line(X + W - lineW, Y, X + W, Y, color); //Da al centro in alto a destra verso in alto a destra
 
-	gui.draw_line(X + W, Y, X + W, Y + lineH, color); //Da in alto a destra verso giù
+	gui.draw_line(X + W, Y, X + W, Y + lineH, color); //Da in alto a destra verso giÃ¹
 
 	gui.draw_line(X, Y + H - lineH, X, Y + H, color); //Dal centro in basso a sinistra verso in basso a sinistra
 
@@ -409,11 +409,6 @@ bool InitializeESP(uintptr_t CurrentPawn) {
 
 		if (Settings::ESP_PlayersNames) {
 			pFontWrapper->DrawString(pContext, PlayerName.c_str(), 14, Head_W2S.x, Head_W2S.y, kekColorToUint32(SkeletonColor), FW1_RESTORESTATE);
-		}
-		
-		
-		if (Settings::DebugForTest) {
-			ProcessVehicle(CurrentPawn);
 		}
 	}
 }
