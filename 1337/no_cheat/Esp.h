@@ -62,7 +62,7 @@ inline bool ProcessEvent(uintptr_t address, void* fnobject, void* parms)
 {
 	UObject* addr = reinterpret_cast<UObject*>(address); if (!addr) return false;
 	auto vtable = *reinterpret_cast<void***>(addr); if (!vtable) return false;
-	auto processEventFn = static_cast<void(*)(void*, void*, void*)>(vtable[0x44]); if (!processEventFn) return false;
+	auto processEventFn = static_cast<void(*)(void*, void*, void*)>(vtable[0x68]); if (!processEventFn) return false;
 	SpoofCall(processEventFn, (void*)addr, (void*)fnobject, (void*)parms);
 	return true;
 }
