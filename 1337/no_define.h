@@ -56,7 +56,7 @@ namespace offsets {
 
 	uintptr_t ComponentVelocity = 0x140;
 	uintptr_t RootComponent = 0x130;
-	uintptr_t FireStartLoc = 0x878;
+	uintptr_t FireStartLoc = 0x880;
 	uintptr_t RelativeLocation = 0x11c;
 	uintptr_t RelativeRotation = 0x128;
 	uintptr_t CurrentWeapon = 0x600;
@@ -67,8 +67,8 @@ namespace offsets {
 
 	//Exploits
 	uintptr_t bDisableEquipAnimation = 0x2B3;
-	uintptr_t bADSWhileNotOnGround = 0x3AB1;
-	uintptr_t ReviveFromDBNOTime = 0x33B8;
+	uintptr_t bADSWhileNotOnGround = 0x3b11;
+	uintptr_t ReviveFromDBNOTime = 0x3420;
 	uintptr_t CustomTimeDilation = 0x98;
 	uintptr_t LastFireTime = 0x9BC;
 	uintptr_t LastFireTimeVerified = 0x9C0;
