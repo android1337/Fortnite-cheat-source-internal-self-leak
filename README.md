@@ -23,6 +23,7 @@ If u have any issue (not retarded) feel free to dm me on discord: android#1337
 | ------------ | ----------------------- |
 | 07/07/2021   | Released                |
 | 09/07/2021   | Updated ProcessEvent    |
+| 26/07/2021   | GoLang updated offsets  |
 
 # Credits 
 
