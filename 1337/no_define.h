@@ -67,8 +67,8 @@ namespace offsets {
 
 	//Exploits
 	uintptr_t bDisableEquipAnimation = 0x2B3;
-	uintptr_t bADSWhileNotOnGround = 0x3b11;
-	uintptr_t ReviveFromDBNOTime = 0x3420;
+	uintptr_t bADSWhileNotOnGround = 0x3b21; // 0x3b11;
+	uintptr_t ReviveFromDBNOTime = 0x3430; // 0x3420;
 	uintptr_t CustomTimeDilation = 0x98;
 	uintptr_t LastFireTime = 0x9BC;
 	uintptr_t LastFireTimeVerified = 0x9C0;
