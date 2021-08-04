@@ -24,7 +24,10 @@ If u have any issue (not retarded) feel free to dm me on discord: android#1337
 | 07/07/2021   | Released                |
 | 09/07/2021   | Updated ProcessEvent    |
 | 26/07/2021   | GoLang updated offsets  |
+| 03/08/2021   | GoLang updated offsets  |
+| 04/08/2021   | Fixed Crashing          |
+
 
 # Credits 
 
-Me, some guys I dont remember from where I pasted some functions, and https://github.com/homeless1337 (the base is from him and he helped me with some things).
+Me, GoLang is updating it every update cause I cbf, some guys I dont remember who from where I pasted some functions, and https://github.com/homeless1337 (the base is from him and he helped me with some things).
