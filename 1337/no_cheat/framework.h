@@ -298,29 +298,26 @@ namespace Framework {
 		}
 
 		PVOID FindObject(std::string name) {
-			bool once = false;
+			static bool once = false;
 			if (!once)
 			{
 				auto UObjectPtr = MemoryHelper::PatternScan(signatures::Gobject_Sig);
 				objects = decltype(objects)(RVA(UObjectPtr, 7));
-				//std::cout << "obj  " << std::hex << objects << "\n";
-				//std::cout << "base  " << std::hex << GetModuleHandleA(0) << "\n";
 
 				once = true;
 			}
 			for (auto array : objects->ObjectArray->Objects) {
 				auto fuObject = array;
-				//Sleep(1);
+                                std::cout << "";
 				for (auto i = 0; i < 0x10000 && fuObject->Object; ++i, ++fuObject) {
-					//Sleep(1);
+					std::cout << "";
 					auto object = fuObject->Object;
 					if (object->ObjectFlags != 0x41) {}
 					else {
 						std::cout << "";
 						if (strstr(GetUObjectNameLoop(object), name.c_str())) return object;
 					}
-
-					//log << GetUObjectName(object) << "\n";
+					std::cout << "";
 				}
 			}
 			return 0;
