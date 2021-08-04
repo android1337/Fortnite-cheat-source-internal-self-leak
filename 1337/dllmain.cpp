@@ -401,7 +401,7 @@ BOOL SpreadHook(PVOID a1, float* a2, float* a3)
 
 
 void ScanFNObjects() {
-	FNObjects::GetPlayerName = Framework::Objects::FindObject("/Script/Engine.PlayerState.GetPlayerName");
+	FNObjects::GetPlayerName = Framework::Objects::FindObject("GetPlayerName");
 	std::cout << "GetPlayerName: " << FNObjects::GetPlayerName << "\n";
 }
 
