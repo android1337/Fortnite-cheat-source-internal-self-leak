@@ -11,7 +11,6 @@ Here is my fortnite internal cheat source. I will *maybe* update this every upda
 * 360 Fov
 * Visible Check
 * NoSpread
-* Player Stream Snipe (yes lmao recoded the one from maven)
 * AirStuck
 * RapidFire
 * Some exploits
