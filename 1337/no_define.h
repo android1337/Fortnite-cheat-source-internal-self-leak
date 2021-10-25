@@ -49,7 +49,7 @@ namespace offsets {
 	uintptr_t PlayerCameraManager = 0x2B8;
 	uintptr_t AcknowledgedPawn = 0x2A0;
 
-	uintptr_t Levels = 0x138;
+	uintptr_t Levels = 0x140;
 	uintptr_t PersistentLevel = 0x30;
 	uintptr_t AActors = 0x98;
 	uintptr_t ActorCount = 0xA0;
