@@ -312,12 +312,14 @@ namespace Framework {
 				for (auto i = 0; i < 0x10000 && fuObject->Object; ++i, ++fuObject) {
 					std::cout << "";
 					auto object = fuObject->Object;
-					if (object->ObjectFlags != 0x41) {}
-					else {
-						std::cout << "";
-						if (strstr(GetUObjectNameLoop(object), name.c_str())) return object;
+					if (object->ObjectFlags != 0x41) {
+						continue;
 					}
 					std::cout << "";
+					
+					if (strstr(GetUObjectNameLoop(object), name.c_str())) {
+						return object;	
+					}
 				}
 			}
 			return 0;
